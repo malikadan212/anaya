@@ -12,7 +12,7 @@ export interface Product {
 export const products: Product[] = [
   {
     id: "1",
-    name: "Rija Solitaire Ring",
+    name: "Anaya Solitaire Ring",
     category: "rings",
     price: 1840,
     material: "18k Gold, Rose-Cut Diamond",

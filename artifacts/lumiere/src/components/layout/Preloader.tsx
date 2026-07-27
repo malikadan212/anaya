@@ -29,7 +29,7 @@ export function Preloader() {
             className="text-center"
           >
             <h1 className="text-6xl md:text-8xl font-serif font-light tracking-wider text-foreground">
-              Rija
+              Anaya
             </h1>
             <motion.div
               initial={{ width: 0 }}

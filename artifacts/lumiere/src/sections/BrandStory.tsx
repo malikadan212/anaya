@@ -71,7 +71,7 @@ export function BrandStory() {
               
               <div className="space-y-6 text-lg font-light text-muted-foreground leading-relaxed">
                 <p>
-                  Born in Pakistan, Rija bridges heritage craftsmanship with modern luxury.
+                  Born in Pakistan, Anaya bridges heritage craftsmanship with modern luxury.
                   Each piece is designed to catch the light — and hold a moment forever.
                 </p>
                 

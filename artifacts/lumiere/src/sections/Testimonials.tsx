@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "I bought the Rija Solitaire for my engagement. It's not just a ring — it's a piece of art I'll treasure forever. The craftsmanship is flawless.",
+    quote: "I bought the Anaya Solitaire for my engagement. It's not just a ring — it's a piece of art I'll treasure forever. The craftsmanship is flawless.",
     author: "Elena Rousseau",
     location: "Paris",
   },
@@ -14,7 +14,7 @@ const testimonials = [
     location: "Tokyo",
   },
   {
-    quote: "Rija understands that jewelry isn't about trends. It's about timeless pieces that tell your story. This is investment dressing at its finest.",
+    quote: "Anaya understands that jewelry isn't about trends. It's about timeless pieces that tell your story. This is investment dressing at its finest.",
     author: "Sophie Chen",
     location: "London",
   },

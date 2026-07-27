@@ -37,7 +37,7 @@ export default function ProductPage() {
     {
       author: "Charlotte B.",
       rating: 5,
-      comment: "The attention to detail is extraordinary. Rija has created something truly special.",
+      comment: "The attention to detail is extraordinary. Anaya has created something truly special.",
     },
   ];
 
