@@ -1,0 +1,13 @@
+﻿{
+  "buildCommand": "pnpm run build",
+  "devCommand": "pnpm --filter @workspace/anaya run dev",
+  "installCommand": "pnpm install",
+  "framework": null,
+  "outputDirectory": "artifacts/anaya/dist/public",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

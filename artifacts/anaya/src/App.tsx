@@ -17,7 +17,7 @@ const queryClient = new QueryClient();
 function Router() {
   return (
     <Layout>
-      <AnimatePresence mode="wait">
+      <AnimatePresence mode="sync">
         <Switch>
           <Route path="/">
             <PageTransition>

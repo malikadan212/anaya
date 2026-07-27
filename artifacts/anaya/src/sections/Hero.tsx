@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
+import { Link } from 'wouter';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -93,12 +94,12 @@ export function Hero() {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 1, delay: 0.8, ease: 'easeOut' }}
           >
-            <a
+            <Link
               href="/shop"
               className="inline-block px-12 py-4 bg-primary text-primary-foreground text-sm tracking-wider font-light hover:bg-primary/90 transition-all duration-300 hover:shadow-lg"
             >
               Explore Collections
-            </a>
+            </Link>
           </motion.div>
         </div>
       </div>

@@ -8,6 +8,9 @@ export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [location] = useLocation();
 
+  // Determine if we're on a page with a dark hero (only home page)
+  const hasDarkHero = location === '/';
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
@@ -26,14 +29,17 @@ export function Navbar() {
     { href: '/shop', label: 'Collections' },
   ];
 
+  // Text should be white only on home page when not scrolled
+  const textColorClass = !isScrolled && hasDarkHero ? 'text-white' : 'text-foreground';
+
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+        className={`fixed top-0 left-0 right-0 z-50 ${
           isScrolled
             ? 'bg-background/95 backdrop-blur-md border-b border-border'
             : 'bg-transparent'
-        }`}
+        } ${textColorClass} transition-[background-color,border-color,backdrop-filter] duration-500`}
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="flex items-center justify-between h-20 lg:h-24">
