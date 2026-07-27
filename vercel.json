@@ -1,13 +1,15 @@
 ﻿{
-  "buildCommand": "pnpm run build",
-  "devCommand": "pnpm --filter @workspace/anaya run dev",
-  "installCommand": "pnpm install",
-  "framework": null,
+  "buildCommand": "cd artifacts/anaya && pnpm install && pnpm run build",
   "outputDirectory": "artifacts/anaya/dist/public",
-  "rewrites": [
+  "installCommand": "pnpm install --frozen-lockfile",
+  "framework": null,
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
