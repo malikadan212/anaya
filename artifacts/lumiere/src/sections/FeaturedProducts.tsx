@@ -69,7 +69,7 @@ export function FeaturedProducts() {
                       {product.material}
                     </p>
                     <p className="text-sm text-foreground font-light">
-                      £{product.price.toLocaleString()}
+                      Rs. {product.price.toLocaleString()}
                     </p>
                   </div>
                 </div>

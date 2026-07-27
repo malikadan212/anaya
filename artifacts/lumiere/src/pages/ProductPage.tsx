@@ -118,7 +118,7 @@ export default function ProductPage() {
 
             {/* Price */}
             <p className="text-3xl font-serif font-light mb-8">
-              £{product.price.toLocaleString()}
+              Rs. {product.price.toLocaleString()}
             </p>
 
             {/* Description */}

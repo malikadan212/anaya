@@ -126,7 +126,7 @@ export default function ShopPage() {
                     className="w-full accent-accent"
                   />
                   <p className="text-sm text-muted-foreground font-light">
-                    Up to £{priceRange[1].toLocaleString()}
+                    Up to Rs. {priceRange[1].toLocaleString()}
                   </p>
                 </div>
               </div>
@@ -193,7 +193,7 @@ export default function ShopPage() {
                           {product.material}
                         </p>
                         <p className="text-sm text-foreground font-light">
-                          £{product.price.toLocaleString()}
+                          Rs. {product.price.toLocaleString()}
                         </p>
                       </div>
                     </div>
