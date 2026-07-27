@@ -45,7 +45,7 @@ export function Hero() {
         <div
           className="hero-image absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `linear-gradient(to bottom, rgba(250, 246, 239, 0.3), rgba(250, 246, 239, 0.8)), url('https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=1600&q=80')`,
+            backgroundImage: `linear-gradient(to bottom, rgba(36, 17, 36, 0.45), rgba(36, 17, 36, 0.55)), url('https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=1600&q=80')`,
           }}
         />
       </div>
@@ -72,7 +72,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 40 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 1, delay: 0.2, ease: 'easeOut' }}
-            className="text-5xl md:text-7xl lg:text-8xl font-serif font-light tracking-wide text-foreground mb-6"
+            className="text-6xl md:text-8xl lg:text-9xl font-serif font-normal tracking-wide text-[#FAF6EF] mb-6 drop-shadow-lg"
           >
             Jewels That Hold
             <br />
@@ -83,7 +83,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 1, delay: 0.5, ease: 'easeOut' }}
-            className="text-lg md:text-xl font-light text-muted-foreground max-w-2xl mx-auto mb-12"
+            className="text-xl md:text-2xl font-light text-[#E8D8B8] max-w-2xl mx-auto mb-12 drop-shadow"
           >
             Handcrafted pieces designed for moments that last forever
           </motion.p>
