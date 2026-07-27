@@ -1,0 +1,407 @@
+Build a premium luxury women's jewellery ecommerce website.
+
+The website should feel like a $50,000 custom-designed fashion brand website, not a normal ecommerce template.
+
+The brand identity:
+Name: (create an elegant fictional jewellery brand name)
+Industry: Luxury women's jewellery
+Target audience: Women aged 20-45 who appreciate premium handcrafted jewellery.
+
+Design inspiration:
+- Vogue fashion editorials
+- Modern luxury fashion houses
+- High-end jewellery brands
+- Minimal Japanese/Korean luxury aesthetics
+- Premium boutique experience
+
+IMPORTANT:
+Do NOT create a generic ecommerce website.
+Avoid:
+- normal card grids everywhere
+- boring layouts
+- excessive buttons
+- typical Shopify style design
+
+The website should feel artistic, emotional, and luxurious.
+
+================================================
+
+TECH STACK:
+
+Use:
+
+- Next.js 15 App Router
+- TypeScript
+- Tailwind CSS
+- Framer Motion for animations
+- GSAP with ScrollTrigger for advanced scroll animations
+- React Three Fiber / Three.js where useful for premium 3D effects
+- Lucide icons
+
+Make the code clean, modular, and production-ready.
+
+Structure:
+
+app/
+components/
+sections/
+lib/
+public/
+
+Create reusable components.
+
+================================================
+
+BRAND COLOR SYSTEM:
+
+Use this custom color palette:
+
+Primary:
+Deep Aubergine:
+#241124
+
+Secondary:
+Champagne Pearl:
+#E8D8B8
+
+Background:
+Soft Ivory:
+#FAF6EF
+
+Accent:
+Rose Quartz:
+#D8A7A7
+
+Metal:
+Muted Platinum:
+#BFC1C2
+
+The website should NOT look black and gold.
+
+It should feel:
+- feminine
+- elegant
+- mysterious
+- timeless
+- expensive
+
+================================================
+
+HOME PAGE:
+
+Create a cinematic luxury homepage.
+
+--------------------------------
+
+1. HERO SECTION
+
+Full viewport immersive hero.
+
+Requirements:
+
+- Large elegant serif headline
+- Minimal text
+- Luxury fashion feeling
+
+Example:
+
+"Jewels That Hold Your Story"
+
+Subtitle:
+"Handcrafted pieces designed for moments that last forever."
+
+Add:
+
+- Large high-quality jewellery imagery
+- Floating jewellery elements
+- Soft lighting effects
+- Slow animations
+- Subtle parallax movement
+
+Animations:
+
+On page load:
+- headline fades upward smoothly
+- jewellery image reveals with cinematic motion
+- background elements slowly move
+
+On scroll:
+- hero image scales smoothly
+- text fades away
+- transition into next section
+
+The first screen should immediately feel premium.
+
+--------------------------------
+
+2. COLLECTION SECTION
+
+Create categories:
+
+- Rings
+- Necklaces
+- Earrings
+- Bracelets
+
+Design:
+
+NOT simple cards.
+
+Use editorial fashion layouts.
+
+Examples:
+
+- asymmetric image placement
+- large typography
+- hover effects
+- smooth transitions
+
+Hover animation:
+
+- image zoom
+- soft glow
+- category text animation
+
+--------------------------------
+
+3. FEATURED JEWELLERY SECTION
+
+Create a premium product showcase.
+
+Each product should have:
+
+- large image
+- product name
+- material
+- price
+- elegant description
+
+Animations:
+
+- products appear as user scrolls
+- smooth fade and movement
+- subtle 3D hover effect
+
+--------------------------------
+
+4. BRAND STORY SECTION
+
+Create an emotional luxury storytelling section.
+
+Example:
+
+"Our jewellery is created for moments that become memories."
+
+Design:
+
+- Large typography
+- Beautiful whitespace
+- Editorial layout
+- Image + text storytelling
+
+--------------------------------
+
+5. CRAFTSMANSHIP SECTION
+
+Explain:
+
+- Handmade process
+- Premium materials
+- Attention to detail
+
+Use:
+
+- timeline animation
+- scroll-based reveals
+
+--------------------------------
+
+6. TESTIMONIAL SECTION
+
+Luxury customer reviews.
+
+Make it elegant:
+
+- large quotes
+- minimal design
+- smooth carousel
+
+--------------------------------
+
+7. INSTAGRAM / GALLERY SECTION
+
+Create a fashion-style gallery.
+
+Use:
+
+- masonry layout
+- hover effects
+- image transitions
+
+--------------------------------
+
+8. NEWSLETTER SECTION
+
+Luxury invitation style.
+
+Not a normal email box.
+
+Example:
+
+"Join our circle of timeless elegance."
+
+--------------------------------
+
+9. FOOTER
+
+Minimal luxury footer:
+
+Links:
+- Collections
+- About
+- Contact
+- Privacy
+- Instagram
+
+================================================
+
+PRODUCT PAGE:
+
+Create a premium product detail page.
+
+Features:
+
+- Large jewellery image gallery
+- Product information
+- Material details
+- Size selector
+- Add to cart button
+- Wishlist button
+- Reviews
+
+Animations:
+
+- image transitions
+- smooth gallery
+- elegant interactions
+
+================================================
+
+SHOP PAGE:
+
+Create:
+
+- jewellery filters
+- category filters
+- price filtering
+- sorting
+
+Design:
+
+Maintain luxury feeling.
+
+Do not make it look like Amazon.
+
+================================================
+
+NAVIGATION:
+
+Create a luxury navbar.
+
+Requirements:
+
+Desktop:
+- transparent over hero
+- changes appearance on scroll
+
+Mobile:
+- elegant hamburger menu
+- smooth animation
+
+================================================
+
+ANIMATION REQUIREMENTS:
+
+Use animations everywhere but keep them sophisticated.
+
+Include:
+
+- Framer Motion page transitions
+- GSAP ScrollTrigger effects
+- smooth scrolling
+- parallax effects
+- hover micro-interactions
+- image reveal animations
+
+Animations should feel:
+Apple product launch + luxury fashion film.
+
+Avoid:
+- cartoon animations
+- excessive bouncing
+- flashy effects
+
+================================================
+
+IMAGES:
+
+Use premium jewellery imagery.
+
+If images are unavailable:
+- create elegant placeholders
+- structure components so images can easily be replaced
+
+Image style:
+
+- macro jewellery photography
+- soft lighting
+- luxury editorial photography
+
+================================================
+
+RESPONSIVENESS:
+
+Must work perfectly on:
+
+- desktop
+- tablet
+- mobile
+
+Mobile should not feel like a reduced version.
+
+================================================
+
+EXTRA PREMIUM FEATURES:
+
+Add:
+
+1. Loading animation:
+A luxury brand intro animation before homepage loads.
+
+2. Cursor effect:
+Custom elegant cursor on desktop.
+
+3. Smooth page transitions.
+
+4. Scroll progress indicator.
+
+5. Floating decorative particles.
+
+6. Dark/light luxury sections.
+
+================================================
+
+FINAL GOAL:
+
+When someone opens this website, their first impression should be:
+
+"This looks like a jewellery brand worth thousands of dollars."
+
+Prioritize:
+1. Visual impact
+2. Luxury feeling
+3. Animations
+4. User experience
+5. Clean code
+
+Build the complete website.
