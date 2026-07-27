@@ -10,7 +10,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-serif font-light tracking-wider mb-4">Lumière</h3>
+            <h3 className="text-2xl font-serif font-light tracking-wider mb-4">Rija</h3>
             <p className="text-sm text-muted-foreground font-light leading-relaxed">
               Jewels That Hold Your Story
             </p>
@@ -53,7 +53,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="pt-8 border-t border-border">
           <p className="text-xs text-muted-foreground font-light text-center">
-            © {currentYear} Lumière. Handcrafted in Paris, refined in Tokyo.
+            © {currentYear} Rija. Handcrafted in Pakistan.
           </p>
         </div>
       </div>

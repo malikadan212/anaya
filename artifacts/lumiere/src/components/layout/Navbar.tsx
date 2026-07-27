@@ -39,7 +39,7 @@ export function Navbar() {
           <div className="flex items-center justify-between h-20 lg:h-24">
             {/* Logo */}
             <Link href="/" className="text-2xl lg:text-3xl font-serif font-light tracking-wider">
-              Lumière
+              Rija
             </Link>
 
             {/* Desktop Navigation */}

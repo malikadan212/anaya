@@ -71,7 +71,7 @@ export function BrandStory() {
               
               <div className="space-y-6 text-lg font-light text-muted-foreground leading-relaxed">
                 <p>
-                  Founded in Paris and refined in Tokyo, Lumière bridges two worlds of craftsmanship.
+                  Born in Pakistan, Rija bridges heritage craftsmanship with modern luxury.
                   Each piece is designed to catch the light — and hold a moment forever.
                 </p>
                 

@@ -68,7 +68,7 @@ export function Newsletter() {
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
             >
-              {isSubmitted ? 'Welcome to Lumière' : 'Subscribe'}
+              {isSubmitted ? 'Welcome to Rija' : 'Subscribe'}
             </motion.button>
           </form>
 
