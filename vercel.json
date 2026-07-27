@@ -1,5 +1,0 @@
-﻿{
-  "buildCommand": "pnpm install && pnpm --filter @workspace/anaya run build",
-  "outputDirectory": "artifacts/anaya/dist/public",
-  "installCommand": "pnpm install"
-}

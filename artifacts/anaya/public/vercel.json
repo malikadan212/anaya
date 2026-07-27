@@ -1,11 +1,5 @@
 ﻿{
-  "routes": [
-    {
-      "src": "/[^.]+",
-      "headers": {
-        "cache-control": "must-revalidate, max-age=0"
-      },
-      "dest": "/index.html"
-    }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
