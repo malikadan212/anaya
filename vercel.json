@@ -1,8 +1,1 @@
-﻿{
-  "buildCommand": "pnpm --filter ./artifacts/anaya run build",
-  "outputDirectory": "artifacts/anaya/dist",
-  "installCommand": "pnpm install",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
-}
+﻿{"buildCommand":"pnpm --filter @workspace/anaya run build","outputDirectory":"artifacts/anaya/dist","installCommand":"pnpm install","rewrites":[{"source":"/(.*)","destination":"/index.html"}]}
